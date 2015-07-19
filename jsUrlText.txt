@@ -1,0 +1,7 @@
+Below is the text you should put in the URL field of the bookmark you make to run Graffy.
+
+When clicked, it will run JavaScript that calls up the JavaScript files that manipulate the page you're on.
+
+Here is the URL text:
+
+javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://s3.amazonaws.com/tumo/jscripts/graffy/graffy.js';})();
