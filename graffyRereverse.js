@@ -5,7 +5,7 @@ var freshGraffyArray = document.getElementsByClassName('graffySingleItem');
 var freshGraffyArrayB = [];
 for (var i=0; i < freshGraffyArray.length; i++) {
   freshGraffyArrayB.push(freshGraffyArray[i]);
-}
+};
 
 // button for randomizer
 var randoButton = document.createElement('button');
