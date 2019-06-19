@@ -7,7 +7,7 @@ var textTypesArray = ['content', 'innerText', 'innerHTML', 'outerHTML', 'text', 
 
 // below is the array containing the class names that work in conjunction with querySelector and querySelectorAll in the getTheBodyGrafs function
 
-var grafTypesArray = ['.story-body-text', 'div.entry-content > p', 'div.story-body__inner > p', 'div.item-body > div > p', 'div#parent-fieldname-text > p'];
+var grafTypesArray = ['.story-body-text', 'div.entry-content > p', 'div.story-body__inner > p', 'div.item-body > div > p', 'div#parent-fieldname-text > p', 'div.StoryBodyCompanionColumn > p', 'section.meteredContent > div > div > p'];
 
 /* ###
 grafTypesArray order: 
@@ -128,6 +128,6 @@ function graffyWindow2() {
   graffyWindowTarget.document.write(graffyBigBucket);
   graffyWindowTarget.document.write('</div>')
   graffyWindowTarget.document.write('</body></html>');
-  graffyWindowTarget.document.body.appendChild(document.createElement('script')).src='https://s3.amazonaws.com/tumo/jscripts/graffy/graffyRereverse.js';
+  graffyWindowTarget.document.body.appendChild(document.createElement('script')).src='https://graffy.hellotumo.com/graffyRereverse.js';
 };
 graffyWindow2();
