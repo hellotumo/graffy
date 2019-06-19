@@ -4,4 +4,4 @@ When clicked, it will run JavaScript that calls up the JavaScript files that man
 
 Here is the URL text:
 
-javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://s3.amazonaws.com/tumo/jscripts/graffy/graffy.js';})();
+javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://graffy.hellotumo.com/graffy.js';})();
